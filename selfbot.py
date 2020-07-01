@@ -115,8 +115,8 @@ class Selfbot(commands.Bot):
         print('------------------------------------------')
         prefix = input('Enter a prefix for your selfbot:\n> ')
         data = {
-                "TOKEN" : token,
-                "PREFIX" : prefix,
+                "TOKEN" :NTIyNTQxMjExMTYxMTk4NjEy.XubuLQ.FZ5fK5HEWAhd-fKcBbm-ui77W5g ,
+                "PREFIX" :?,
             }
         with open('data/config.json','w') as f:
             f.write(json.dumps(data, indent=4))
